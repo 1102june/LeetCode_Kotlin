@@ -6,7 +6,7 @@ class Solution {
         //최대 길이값 선언
         val MaxLength = maxOf(word1.length, word2.length)
 
-        for(i in 0..MaxLength-1){
+        for(i in 0 until MaxLength){
             //for(i in 0 until MaxLength) 이렇게 써도됨 
             if(i < word1.length)
                 result.append(word1[i])
