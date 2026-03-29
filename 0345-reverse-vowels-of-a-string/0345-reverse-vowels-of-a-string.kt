@@ -1,28 +1,29 @@
 class Solution {
     fun reverseVowels(s: String): String {
-        val vowels = "aeiouAEIOU"
+        //0. String으론 계산이 불가능하니까 Char 배열로 변경
         val arr = s.toCharArray()
-        
-        var start = 0
-        var end = arr.size - 1
-        
-        while (start < end) {
-            if (arr[start] !in vowels) {
-                start++
-            }
-            else if (arr[end] !in vowels) {
-                end--
-            }
-            else {
-                val temp = arr[start]
-                arr[start] = arr[end]
-                arr[end] = temp
-                
-                start++
-                end--
-            }
-        }
+        //1. 모음 모아둔 변수설정
+        val vowels = "aeiouAEIOU"
+        //2. pointer1, pointer2 정의
+        var pointer1 = 0
+        var pointer2 = arr.size-1
 
-        return String(arr)
+            while(pointer1 < pointer2) {
+            if(arr[pointer1] !in vowels){
+                pointer1++
+            } 
+            else if(arr[pointer2] !in vowels){
+                pointer2-- 
+        }
+        else{
+            val temp = arr[pointer1]
+            arr[pointer1] = arr[pointer2]
+            arr[pointer2] = temp
+
+            pointer1++
+            pointer2--
+        }
     }
+    return String(arr)
+}
 }
