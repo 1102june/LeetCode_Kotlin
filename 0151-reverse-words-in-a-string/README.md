@@ -18,23 +18,6 @@
 ### 3. 💡 코틀린의 마법 (Standard Approach)
 투 포인터로 인덱스를 직접 다루는 하드코어한 구현을 끝내고 나니, 예외 케이스(연속 공백, 첫 단어 등) 처리가 얼마나 까다로운지 뼛속 깊이 깨달았다. 실무나 일반적인 코테에서는 아래와 같이 코틀린의 내장 함수를 파이프라인처럼 연결하는 것이 가독성과 유지보수 면에서 훨씬 우수하다.
 
-```kotlin
-// 내일 다시 풀어볼 코틀린 정석(Standard) 풀이
-return s.trim()
-        .split("\\s+".toRegex()) // 정규식: 연속된 공백도 하나로 취급해서 쪼갬
-        .reversed()              // 단어 순서 뒤집기
-        .joinToString(" ")       // 다시 공백 한 칸씩 넣어서 합치기
-
-
-
-
-
-
-
-
-
-
-
 
 <h2><a href="https://leetcode.com/problems/reverse-words-in-a-string">151. Reverse Words in a String</a></h2><h3>Medium</h3><hr><p>Given an input string <code>s</code>, reverse the order of the <strong>words</strong>.</p>
 
