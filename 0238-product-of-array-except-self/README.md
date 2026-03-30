@@ -1,14 +1,10 @@
 # [Medium] 238. Product of Array Except Self
 
-🔗 **문제 링크:** [여기에 리트코드 링크 삽입]
-🏷️ **알고리즘 태그:** `Array`, `Prefix Sum`
 
 ## 💡 문제 미션 & 억까 조건
-* **목표:** 배열에서 '나 자신(현재 인덱스)'을 제외한 나머지 모든 숫자의 곱을 구해서 배열로 반환하라.
-* **💀 제약 조건 (이게 미쳤음):** 1. 나누기(`/`) 연산 절대 사용 금지 ❌
-  2. 무조건 시간 복잡도 `O(n)` 안에 풀 것 ⏱️ (이중 for문 금지)
+* **목표:** 배열에서 '나 자신(현재 인덱스)'을 제외한 나머지 모든 숫자의 곱을 구해서 배열로 반환하라. 나누기금지. O(n)의 시간 복잡도.
 
-## 🔑 핵심 발상 (The "Aha!" Moment)
+## 🔑 핵심 발상 
 전체 곱에서 나를 나누는 게 불가능하다면? 시야를 좁혀서 양옆을 보자!
 👉 **"내 왼쪽 무리들 싹 다 곱한 값 ✖️ 내 오른쪽 무리들 싹 다 곱한 값 = 나 빼고 다 곱한 값"**
 
@@ -18,8 +14,7 @@
 ## 🤬 오늘의 회고 & 깨달음
 * 처음 문제 봤을 때는 나누기 없이 이중 for문도 없이 풀라길래 욕이 절로 나왔다. -> 처음 부터 끝까지 어떻게 풀어야할지 생각 못해낸 문제가 처음임 
 * 배열 전체를 보지 않고 **'내 왼쪽 벽'과 '내 오른쪽 벽'을 분리해서 생각한 다음 합친다**는 발상을 할수 있냐 없냐가 핵심.
-* 이 문제는 코테 세계의 '암기 과목' 같은 녀석이다. 나중에 또 나오면 당황하지 말고 **'양방향 휩쓸기 패턴'**을 바로 떠올리자.
-
+* **'양방향 휩쓸기 패턴'**을 암기하자
 
 <h2><a href="https://leetcode.com/problems/product-of-array-except-self">238. Product of Array Except Self</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.</p>
 
