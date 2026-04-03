@@ -47,6 +47,7 @@ for (i in 0 until n) {
     result[i] = leftPointer              // 1. 일단 내 자리에 지금까지 누적된 왼쪽 값을 쓴다.
     leftPointer = leftPointer * nums[i]  // 2. 다음 칸으로 넘어가기 전, 내 숫자를 곱해서 봇짐을 불린다.
 }
+```
 
 
 <h2><a href="https://leetcode.com/problems/product-of-array-except-self">238. Product of Array Except Self</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.</p>
