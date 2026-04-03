@@ -49,6 +49,17 @@ for (i in 0 until n) {
 }
 ```
 
+### 2단계: ⬅️ 오른쪽에서 왼쪽으로 (Suffix 구해서 합체하기)
+목적: 내 기준 **'오른쪽에 있는 숫자들의 곱'**을 구하면서, 1단계에서 구한 값에 냅다 곱해버린다.
+
+초기값: rightPointer = 1
+```
+Kotlin
+for (i in n - 1 downTo 0) {
+    result[i] = result[i] * rightPointer   // 1. 아까 적어둔 왼쪽 값에 오른쪽 값을 곱해서 정답 완성!
+    rightPointer = rightPointer * nums[i]  // 2. 다음 칸(왼쪽)으로 가기 전, 내 숫자를 곱해서 봇짐을 불린다.
+}
+```
 
 <h2><a href="https://leetcode.com/problems/product-of-array-except-self">238. Product of Array Except Self</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.</p>
 
