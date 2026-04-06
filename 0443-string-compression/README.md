@@ -30,6 +30,11 @@ class Solution {
         return s.length
         }
 ```
+"You must write an algorithm that uses only constant extra space." 
+그냥 직역하면 너는 알고리즘을 사용해야한다. 오직 지속적인 남은 공간을.
+
+근데 이게 일반 영어와 CS영어가 다름. constant는 상수의 의미임.
+"네가 코드를 돌리기 위해 새로 가져다 쓰는 추가 메모리(Extra space)의 용량이, 입력 배열이 커지든 작아지든 상관없이 항상 똑같은 크기(상수, Constant)여야 한다."
 
 ## 🤬 빡침 포인트 & 배운 점
 문제 지문에서 *"Begin with an empty string s..."* 라고 써있어서 `StringBuilder`를 썼더니 개같이 멸망했다.
