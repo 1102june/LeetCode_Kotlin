@@ -1,3 +1,6 @@
+1. StringBuilder선언, maxof()함수 활용한 선언
+2. 굳이 차례대로 조건문 나눌필요없이 그냥 word1부터 조건문으로 비교하면서 대입하면됨 
+
 <h2><a href="https://leetcode.com/problems/merge-strings-alternately">1894. Merge Strings Alternately</a></h2><h3>Easy</h3><hr><p>You are given two strings <code>word1</code> and <code>word2</code>. Merge the strings by adding letters in alternating order, starting with <code>word1</code>. If a string is longer than the other, append the additional letters onto the end of the merged string.</p>
 
 <p>Return <em>the merged string.</em></p>
