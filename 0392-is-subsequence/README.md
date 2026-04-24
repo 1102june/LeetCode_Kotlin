@@ -1,6 +1,9 @@
 1. Two pointer를 잘활용 했으나 예외처리를 잘못해서 IndexOutofBounds나옴
 2. while문안에서 (pt1< s.length) 이런식으로만 쓰면 pt2가 배열 넘어가서 조건문 비교해서 틀림
 
+## TwoPointer 패턴 2가지
+1. 포인터 두개 다 0번 인덱스에서 부터 출발하는 경우 => 특히 이번문제. 두 문자열을 차례때로 조건을 따져가며 비교하는 경우
+2. 한개의 배열에서 뒤따라가면서 값을 덮어쓰는경우 => 283번 같이 0 밀어내기 
 
 <h2><a href="https://leetcode.com/problems/is-subsequence">392. Is Subsequence</a></h2><h3>Easy</h3><hr><p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>
 
