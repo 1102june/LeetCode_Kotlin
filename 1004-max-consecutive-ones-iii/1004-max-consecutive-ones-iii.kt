@@ -4,7 +4,7 @@ class Solution {
         var zero = 0
         var maxLen = 0
 
-        for(right in nums.indices){//right = 0,1,2..
+        for(right in nums.indices){ //right = 0,1,2..
             if(nums[right] == 0){  //그냥 right는 0 만나면 Zero++
                 zero++
             } 
