@@ -3,6 +3,7 @@
 3. 그 다음엔 무조건 알아야하는 Prefix Sum 관련된 공식들
 4. Right Sum = Total Sum - Left Sum - nums[i] 우측 전체합은 전체합에서 내 왼쪽합과 나자신을 빼면 나온다.
 5. LeftSum = TotalSum - Left Sum - nums[i]  ///우리가 오른쪽합을 아직 모르니까, 왼쪽 합을 기준으로 식을 세워서 지금 왼쪽합이 계산된 오른쪽합과 같은 구조냐?  <- 이게 핵심
+6. 그냥 단순하게 말하자면 시소 왼쪽무게가 오른쪽무게인 전체 - 왼쪽합 - 현재값 과 같아지는 순간을 찾는다
 
 
 <h2><a href="https://leetcode.com/problems/find-pivot-index">724. Find Pivot Index</a></h2><h3>Easy</h3><hr><p>Given an array of integers <code>nums</code>, calculate the <strong>pivot index</strong> of this array.</p>
