@@ -1,3 +1,10 @@
+1. 초기접근: 그냥 어케해야할지 감을 못잡음. 전체 합을 구한다음에 pivot값을 특정하게 잡아서 비교해가야한다는것을 알지만 만약 pivot값을 안다고 한들 정확히 어떻게 계산해야 효율적일지만 생각하다가 제대로 해결못함
+2. 먼저 Kotlin이니까 그냥 total값을 sum함수 써서 해결가능하긴함.
+3. 그 다음엔 무조건 알아야하는 Prefix Sum 관련된 공식들
+4. Right Sum = Total Sum - Left Sum - nums[i] 우측 전체합은 전체합에서 내 왼쪽합과 나자신을 빼면 나온다.
+5. LeftSum = TotalSum - Left Sum - nums[i]  ///우리가 오른쪽합을 아직 모르니까, 왼쪽 합을 기준으로 식을 세워서 지금 왼쪽합이 계산된 오른쪽합과 같은 구조냐?  <- 이게 핵심
+
+
 <h2><a href="https://leetcode.com/problems/find-pivot-index">724. Find Pivot Index</a></h2><h3>Easy</h3><hr><p>Given an array of integers <code>nums</code>, calculate the <strong>pivot index</strong> of this array.</p>
 
 <p>The <strong>pivot index</strong> is the index where the sum of all the numbers <strong>strictly</strong> to the left of the index is equal to the sum of all the numbers <strong>strictly</strong> to the index&#39;s right.</p>
