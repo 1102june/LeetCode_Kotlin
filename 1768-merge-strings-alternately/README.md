@@ -1,5 +1,7 @@
 1. StringBuilder선언, maxof()함수 활용한 선언
 2. 굳이 차례대로 조건문 나눌필요없이 그냥 word1부터 조건문으로 비교하면서 대입하면됨
+3. 첫번째 if문에 안걸리면 두번째 if문 만족하는지 순서대로 확인만하면 알아서 str1, str2 순서대로 들어감
+4. 범위 나가면 그냥 남은 str값들 들어가고 return. return할땐 toString으로 return value match
 
 ### StringBuilder를 언제 써야하는가
 String은 애초에 불변이라 돌판임. 따라서 StringBuilder라는 화이트보드를 가져와서 활용.
