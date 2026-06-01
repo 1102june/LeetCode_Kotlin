@@ -1,19 +1,19 @@
 class Solution {
     fun gcdOfStrings(str1: String, str2: String): String {
-        // 문제를 보고 GCD최대공약수 활용 못하면 나가리.
-        //합체순서를 다르게 했을때. 
-        if(str1+str2 != str2+str1){
-            return "" 
-    }
-    var a = str1.length
-    var b = str2.length
-
-    while (b != 0) {
-            val temp = b
-            b = a % b  // b에는 나머지를 넣고
-            a = temp   // a에는 아까의 b를 넣음
+        //1. 두 문자열 서로 뒤집어서 더했을때 일치하지않으면 "" return
+        if (str1+str2 != str2+str1){
+            return ""
         }
+        // 2.두 문자열의 길이 활용해서 최대공약수 gcd 구하기
+        var a = str1.length  // 6
+        var b = str2.length // 3
 
-    return str1.substring(0,a)
-}
+        while(b!=0){   //유클리드 호제법
+            val r = a % b
+            a = b
+            b = r
+        }
+        val gcd = a
+        return str1.substring(0,gcd) // substring활용해서 자르기 
+    }
 }
