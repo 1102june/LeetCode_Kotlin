@@ -2,6 +2,12 @@
 
 <p><strong>Note</strong> that you must do this in-place without making a copy of the array.</p>
 
+## 초기접근
+1. 포인터 두개써서 0인것과 0이아닌 위치를 바꾸자
+2. 단순하게 접근했지만 그렇다면 두개의 포인터 모두 끝까지 가는 경우를 따지는게 귀찮음
+3. 그냥 0아닌것을 찾으면 zero 삽입하는곳과 temp로 swap해버림
+
+
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre><strong>Input:</strong> nums = [0,1,0,3,12]
