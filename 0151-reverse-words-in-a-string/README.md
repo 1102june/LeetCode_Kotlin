@@ -1,4 +1,4 @@
-## 🧠 [LeetCode 151] Reverse Words in a String - 투 포인터와 공백의 사투
+## 🧠 [LeetCode 151] Reverse Words in a String - 공백 예외처리
 
 ## 초기 접근
 1. 그냥 반복문을 String의 맨뒤에서 부터 돌면서 공백만나면 집어넣자
