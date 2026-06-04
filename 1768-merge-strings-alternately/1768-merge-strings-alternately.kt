@@ -9,8 +9,8 @@ class Solution {
             }
             if(i < word2.length){
                 result.append(word2[i])
-            }
-        } 
+            }  
+        }
         return result.toString()
     }
 }
