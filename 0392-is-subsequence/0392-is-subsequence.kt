@@ -1,21 +1,18 @@
 class Solution {
     fun isSubsequence(s: String, t: String): Boolean {
-        var i = 0 
-        var j = 0
-        while(i < s.length && j < t.length){
-            if(s[i] == t[j]){
-                i++
-                j++
-            }
-            else{
-                j++
+        if (s.length == 0){
+            return true
+        }
+        var pointer = 0
+        for(i in 0 until t.length){
+            if(s[pointer] == t[i]){
+                pointer++
+                if(pointer == s.length){
+                    return true
+                }
             }
         }
+        return false 
 
-        if(i == s.length){
-            return true
-        } 
-        else
-            return false
     }
 }
