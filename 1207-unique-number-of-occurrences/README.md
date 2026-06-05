@@ -5,6 +5,17 @@
 4. map에서 value값들만 set함수로 중복제거
 5. 해당 set이랑 map이랑 길이 비교해서 맞으면 true 아니면 false return
 
+# Kotlin Functions
+1. value 개수를 value로 집어넣는 map
+   ```kotlin
+	val a = b.toList().groupingBy{it}.eachCount()
+   ```
+2. values, keys 만 따로 set으로
+   ```kotlin
+	val values =  a.values.toSet()
+   val keys = a.keys.toSet(0
+   ```
+
 <h2><a href="https://leetcode.com/problems/unique-number-of-occurrences">1319. Unique Number of Occurrences</a></h2><h3>Easy</h3><hr><p>Given an array of integers <code>arr</code>, return <code>true</code> <em>if the number of occurrences of each value in the array is <strong>unique</strong> or </em><code>false</code><em> otherwise</em>.</p>
 
 <p>&nbsp;</p>
