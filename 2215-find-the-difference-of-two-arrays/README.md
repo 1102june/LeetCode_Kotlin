@@ -1,3 +1,33 @@
+## 초기접근
+1. 단순하게 for문돌면서 nums1의 0번인덱스부터 nums2의 0,1,2번 인덱스 비교해서 같으면 제거하는 방식으로 진행하려했음 사실상 이중 for문도는 형식
+2. 그러나 일단 배열의 중복을 제거해야한다는 사실도 놓침
+3. set으로 변환후 차집합하여 list변환한뒤 listof함수를 활용
+
+# Kotlin Collection
+1.listOf(): 새로운 List만들기
+정답을 묶어서 리스트로 반환할때
+```kotlin
+val a = listOf(1,2)
+val b = listOf(3,4)
+
+val result= listOf(a,b)  // result: [[1,2],[3,4]]
+```
+2. .toSet() , .toList()
+Set으로 중복값 날릴때 "O(1)보다 빠르다는게 핵심"
+
+3. .groupingBy{it}.eachCount()  등장횟수세기
+   배열안에서 각 숫자가 몇번 나왔는지 Map 사전으로 만들어야할때
+java나 python의 이중 for문이나 Map로직을 단한줄로 끝내는 kotlin의 사기 함수
+
+```kotlin
+val arr = intArrayOf(1,2,2,3,3,3)
+val countMap = arr.toList().groupingBy{it}.eachCount()
+val counts = countMap.values // Map의 횟수만 뽑기 [1,2,3] 
+```
+   
+
+
+
 <h2><a href="https://leetcode.com/problems/find-the-difference-of-two-arrays">1392. Find the Difference of Two Arrays</a></h2><h3>Easy</h3><hr><p>Given two <strong>0-indexed</strong> integer arrays <code>nums1</code> and <code>nums2</code>, return <em>a list</em> <code>answer</code> <em>of size</em> <code>2</code> <em>where:</em></p>
 
 <ul>
