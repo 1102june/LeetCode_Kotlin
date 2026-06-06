@@ -1,8 +1,8 @@
 class Solution {
     fun uniqueOccurrences(arr: IntArray): Boolean {
-        val a = arr.toList().groupingBy(){it}.eachCount() //map
+        var map = arr.toList().groupingBy{it}.eachCount() // 개수 세서 맵으로 만들어냄
+        var values = map.values.toSet()
 
-        val a_set = a.values.toSet() //value값 set으로 변환
-        return a.count() == a_set.count()
-        }
+        return values.size == map.size
+    }
 }
