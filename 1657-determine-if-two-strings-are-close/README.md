@@ -1,3 +1,19 @@
+## 초기접근
+1. 일단 문제 처음보고 5분 고민해봤을때 감도 안옴 어떻게 풀어야할지
+2. 제미나이가 key, value관련해서 두가지만 만족하면 true뜨도록하라는 말 듣고 10분고민해보니까
+3. 먼저 두 배열 길이가 다르면 true뜰수가없는 예외처리
+4. Map 만들어서 key, value의 내용물만 같으면 true 처리 << 이 로직이 맞는데 내가
+5. value끼리 비교하기전에 sort해서 비교해야한다는 사고까지는 이어지지못함
+
+# Kotlin Collection
+1. 빈도수 세기
+   ```
+    kotlin
+	var a = arr.toList().groupingBy{it}.eachCount()
+   ```
+2. key value 다루기
+3. 중복 제거는 toSet(()
+
 <h2><a href="https://leetcode.com/problems/determine-if-two-strings-are-close">1777. Determine if Two Strings Are Close</a></h2><h3>Medium</h3><hr><p>Two strings are considered <strong>close</strong> if you can attain one from the other using the following operations:</p>
 
 <ul>
