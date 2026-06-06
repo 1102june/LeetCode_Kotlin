@@ -1,12 +1,12 @@
 class Solution {
     fun findDifference(nums1: IntArray, nums2: IntArray): List<List<Int>> {
-        var a = nums1.toSet() 
-        var b = nums2.toSet()
+        //중복 제거를 위한 set 변환
+        val a =  nums1.toSet()
+        val b =  nums2.toSet()
 
-        val a1 = (a-b).toList()
-        val b1 = (b-a).toList()
+        var a1  = (a-b).toList()
+        var b1 = (b-a).toList()
 
         return listOf(a1,b1)
-        
     }
 }
