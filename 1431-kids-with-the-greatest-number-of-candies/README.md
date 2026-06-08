@@ -1,3 +1,12 @@
+## Kotlin Correction
+#### Kotlin은 극한의 안정성을 추구 
+1. 리스트에서 max값 찾을때
+   ```kotlin
+   max // 그냥 최댓값, 지금 kotlin에서 안씀
+   maxOrNull() // max값 구하고 없으면Null값 넣어라
+	val max = arr.maxOrNull()!! // max값 구하고 null값 나올리가 없으니까 Int타입으로 강제
+   ```
+
 <h2><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies">1528. Kids With the Greatest Number of Candies</a></h2><h3>Easy</h3><hr><p>There are <code>n</code> kids with candies. You are given an integer array <code>candies</code>, where each <code>candies[i]</code> represents the number of candies the <code>i<sup>th</sup></code> kid has, and an integer <code>extraCandies</code>, denoting the number of extra candies that you have.</p>
 
 <p>Return <em>a boolean array </em><code>result</code><em> of length </em><code>n</code><em>, where </em><code>result[i]</code><em> is </em><code>true</code><em> if, after giving the </em><code>i<sup>th</sup></code><em> kid all the </em><code>extraCandies</code><em>, they will have the <strong>greatest</strong> number of candies among all the kids</em><em>, or </em><code>false</code><em> otherwise</em>.</p>
