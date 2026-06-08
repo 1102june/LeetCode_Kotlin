@@ -1,3 +1,18 @@
+## 초기접근
+1. 그냥 배열안에 0이 연속 3번 들어있으면 1박고서 진행하려했음
+2. 그러나 배열길이가 1인경우 예외처리와
+3. 0번인덱스가 0인경우엔 1번인덱스가 0이면 바로 0번 인덱스에 1박고 진행
+4. 마지막 인덱스도 이와 마찬가지 맨끝 인덱스와 그 앞 인덱스가 0이 연속되어있으면 바로 1 박고진행
+5. 1박을때마다 count는 ++ 해주기 Greedy 알고리즘
+
+## Greedy Algorithm
+### "숲을 안보고 나무만 본다" 
+당장 가장 이득이 되는 최적의 선택을 하며 이어나감
+
+왜? 그리디 알고리즘인가?
+> 뒤에 어떤 것들이 있던간에 1을 심을수있는 순간만 오면 무조건 1을 심고 넘어가는 구조
+>  이렇게 하는 이유는 꽃을 최대한 많이 심어야하기 때문 
+
 <h2><a href="https://leetcode.com/problems/can-place-flowers">605. Can Place Flowers</a></h2><h3>Easy</h3><hr><p>You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in <strong>adjacent</strong> plots.</p>
 
 <p>Given an integer array <code>flowerbed</code> containing <code>0</code>&#39;s and <code>1</code>&#39;s, where <code>0</code> means empty and <code>1</code> means not empty, and an integer <code>n</code>, return <code>true</code>&nbsp;<em>if</em> <code>n</code> <em>new flowers can be planted in the</em> <code>flowerbed</code> <em>without violating the no-adjacent-flowers rule and</em> <code>false</code> <em>otherwise</em>.</p>
