@@ -36,7 +36,7 @@ var RowMap = grid.map{it.toList}.groupingBy{it}.eachCount()
 	var count = RowMap[col]
    ```
 4. kotlin에서 List는 append가 불가능. 오로지 add
-5. for문 안에서의 ㅊol 
+5. for문 안에서의 선언하는 이유에대해서 항상 생각
 
 
 <h2><a href="https://leetcode.com/problems/equal-row-and-column-pairs">2428. Equal Row and Column Pairs</a></h2><h3>Medium</h3><hr><p>Given a <strong>0-indexed</strong> <code>n x n</code> integer matrix <code>grid</code>, <em>return the number of pairs </em><code>(r<sub>i</sub>, c<sub>j</sub>)</code><em> such that row </em><code>r<sub>i</sub></code><em> and column </em><code>c<sub>j</sub></code><em> are equal</em>.</p>
