@@ -37,6 +37,9 @@ var RowMap = grid.map{it.toList}.groupingBy{it}.eachCount()
    ```
 4. kotlin에서 List는 append가 불가능. 오로지 add
 5. for문 안에서의 선언하는 이유에대해서 항상 생각
+6. col의 리스트를 하나 구성할때마다 행의 Map과 비교하는 구조
+7. 그렇다면 col의 key값과 열의 list가 하나 만들어질때마다 비교해야하는거 아닌가? 라는 의문발생
+>> 우리가 Map을 쓸때 rowMap[무언가] 이렇게 만들면 무언가와 똑같이 생긴 key를 찾아라 라는 의미.  
 
 
 <h2><a href="https://leetcode.com/problems/equal-row-and-column-pairs">2428. Equal Row and Column Pairs</a></h2><h3>Medium</h3><hr><p>Given a <strong>0-indexed</strong> <code>n x n</code> integer matrix <code>grid</code>, <em>return the number of pairs </em><code>(r<sub>i</sub>, c<sub>j</sub>)</code><em> such that row </em><code>r<sub>i</sub></code><em> and column </em><code>c<sub>j</sub></code><em> are equal</em>.</p>
