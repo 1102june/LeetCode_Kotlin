@@ -27,14 +27,12 @@ class Solution {
 ```
 ## Kotlin Correction
 1. 행 집어넣기: Map에다가 list를 집어넣고 리스트 덩어리의 숫자만큼 map을 생성 
-```
-kotlin
+```kotlin
 var RowMap = grid.map{it.toList}.groupingBy{it}.eachCount()
 ```
 2. 열 집어넣기 << for문안에 mutableListOf<Int>() 선언하는 이유는 list바구니를 계속 만들어서 집어넣음, for문 밖에선언하면 안되는지 의문이었음
 3. 행의 리스트 덩어리가 들어있는 Map과 열 덩어리가 들어있는 list를 비교
-   ```
-   kotlin
+   ```kotlin
 	var count = RowMap[col]
    ```
 4. kotlin에서 List는 append가 불가능. 오로지 add
