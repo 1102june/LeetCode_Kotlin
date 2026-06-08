@@ -1,24 +1,32 @@
 class Solution {
     fun canPlaceFlowers(flowerbed: IntArray, n: Int): Boolean {
-        //0. 1을 박을건데 1을 박을수를 count함.
+        //1. flowerbed 길이가 1인경우 예외 처리
         var count = 0
-        //1. n=0이면 true return
-        if (n==0) return true
-        // 2. for문으로 flowerbed돌기 
-        for(i in 0 until flowerbed.size){
-            if(flowerbed[i] == 0){ //flowerbed[i]가 0일때
-                val left = (i==0 || flowerbed[i-1]==0)  //[i]를 기준으로 좌측 인덱스가 0이거나 0번째 인덱스인 경우 
-                val right = (i==flowerbed.size-1 || flowerbed[i+1]==0) //[i]를 기준으로 우측 인덱스가 0이거나 맨 끝 인덱스인 경우
-                if (left && right){
-                    flowerbed[i] = 1
-                    count++
-                }
+
+        if(flowerbed.size == 1){
+            if(flowerbed[0] == 0){
+                count++
+            }
+            return count >= n   
+        }
+
+        //2. 0번 인덱스가 0인경우 
+        if(flowerbed[0] == 0 && flowerbed[1]==0){
+            flowerbed[0]=1
+            count++
+        } 
+        //3. 마지막 인덱스가 0인경우
+        if(flowerbed[flowerbed.size-1] == 0 && flowerbed[flowerbed.size-2]==0){
+            flowerbed[flowerbed.size-1]= 1
+            count++
+        } 
+        //4. 중간 인덱스계산
+        for(i in 2 until flowerbed.size-1){
+            if(flowerbed[i-1] == 0 && flowerbed[i]==0 && flowerbed[i+1]==0){
+                flowerbed[i] = 1
+                count ++
             }
         }
-        if (count >= n){
-            return true
-        }
-        else
-            return false
-    }
+        return count >= n       
+}
 }
