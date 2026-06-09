@@ -1,6 +1,6 @@
 class Solution {
     fun moveZeroes(nums: IntArray): Unit {
-        var nonzero = 0
+        var zero = 0
 
         if(nums.size == 1){
             return 
@@ -8,9 +8,9 @@ class Solution {
         for(i in 0 until nums.size){
             if(nums[i]!=0){
                 val temp = nums[i]
-                nums[i] = nums[nonzero]
-                nums[nonzero] = temp
-                nonzero++
+                nums[i] = nums[zero]
+                nums[zero] = temp
+                zero++
             } 
         } 
         return 
