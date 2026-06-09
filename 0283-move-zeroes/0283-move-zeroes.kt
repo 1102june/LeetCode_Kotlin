@@ -1,18 +1,18 @@
 class Solution {
     fun moveZeroes(nums: IntArray): Unit {
+        var nonzero = 0
+
         if(nums.size == 1){
             return 
-        }
-        var pointer = 0
+        } 
         for(i in 0 until nums.size){
-            if(nums[i] != 0){
-                var temp = nums[i]
-                nums[i] = nums[pointer]
-                nums[pointer] = temp
-
-                pointer++
+            if(nums[i]!=0){
+                val temp = nums[i]
+                nums[i] = nums[nonzero]
+                nums[nonzero] = temp
+                nonzero++
             } 
         } 
-        return
+        return 
     }
 }
