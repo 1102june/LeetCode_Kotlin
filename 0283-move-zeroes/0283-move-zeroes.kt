@@ -3,14 +3,14 @@ class Solution {
         if(nums.size == 1){
             return 
         }
-        var pointer = 0
+        var nzero = 0
 
         for(i in 0 until nums.size){
             if(nums[i] != 0){   //0이 아닌것을 찾았을때 Swap
                 val temp = nums[i]
-                nums[i] = nums[pointer]
-                nums[pointer] = temp
-                pointer++
+                nums[i] = nums[nzero]
+                nums[nzero] = temp
+                nzero++
             } 
         }
         return
