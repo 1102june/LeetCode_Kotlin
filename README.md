@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/1102june/LeetCode_Kotlin/tree/master/0011-container-with-most-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/1102june/LeetCode_Kotlin/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/1102june/LeetCode_Kotlin/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/1102june/LeetCode_Kotlin/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/1102june/LeetCode_Kotlin/tree/master/0334-increasing-triplet-subsequence) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [1207-unique-number-of-occurrences](https://github.com/1102june/LeetCode_Kotlin/tree/master/1207-unique-number-of-occurrences) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Sliding Window
