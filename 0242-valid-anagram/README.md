@@ -1,3 +1,11 @@
+## Kotlin Functions
+두개의 Map을 비교한다면 smap==tmap
+1. 사이즈가 같은가
+2. key값이 다 들어가있는가
+3. value값이 다 들어가있는가
+4. 그러나 sort되어있진않음
+
+
 <h2><a href="https://leetcode.com/problems/valid-anagram">242. Valid Anagram</a></h2><h3>Easy</h3><hr><p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code> if <code>t</code> is an <span data-keyword="anagram">anagram</span> of <code>s</code>, and <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>
