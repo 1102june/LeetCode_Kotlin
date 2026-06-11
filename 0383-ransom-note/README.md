@@ -1,3 +1,17 @@
+## 초기접근
+1. 그냥 for문돌면서 map을 만들어서 집어넣고
+2. keys , values 따로 뽑아서 sort한뒤 비교해서 true/false return하려햇음
+3. 그러나 문제 의도는 map을 만들어서 집어넣고 직접 비교하는구조
+
+## Kotlin Functions
+1. getOrDefault
+   ```kotlin
+	result.getOrDefault('a',0)
+   // result 뒤져서 a 글자가 몇개남아있는지 가져와 없으면 default 0 으로하고
+   if(result.getOrDefualt(j,0) == 0)
+   // j라는 글자가 대답이 0이냐? 묻는거임 
+   ```
+
 <h2><a href="https://leetcode.com/problems/ransom-note">383. Ransom Note</a></h2><h3>Easy</h3><hr><p>Given two strings <code>ransomNote</code> and <code>magazine</code>, return <code>true</code><em> if </em><code>ransomNote</code><em> can be constructed by using the letters from </em><code>magazine</code><em> and </em><code>false</code><em> otherwise</em>.</p>
 
 <p>Each letter in <code>magazine</code> can only be used once in <code>ransomNote</code>.</p>
