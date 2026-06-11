@@ -1,17 +1,16 @@
 class Solution {
     fun canConstruct(ransomNote: String, magazine: String): Boolean {
-        val map = mutableMapOf<Char, Int>() // map 만들기
+        val result = mutableMapOf<Char, Int>()
 
         for(i in magazine){
-            map[i] = map.getOrDefault(i,0)+1
+            result[i] = result.getOrDefault(i,0)+1 
         }
         for(j in ransomNote){
-            if(map.getOrDefault(j,0)==0){
+            if(result.getOrDefault(j,0) == 0){
                 return false
             } 
-            map[j] = map[j]!!-1
-        }  
-        return true
-        
+            result[j]=result[j]!!-1
+        } 
+        return true 
     }
 }
