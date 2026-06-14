@@ -1,3 +1,10 @@
+## 초기
+1. 처음에 문제 이해를 제대로 못함
+2. return type unit인데 merge해서 sort하라는거에 이해를못함
+3. nums1이 0 인지점부터 nums2 0번 인덱스 박고
+4. sort하면됨 
+
+
 <h2><a href="https://leetcode.com/problems/merge-sorted-array">88. Merge Sorted Array</a></h2><h3>Easy</h3><hr><p>You are given two integer arrays <code>nums1</code> and <code>nums2</code>, sorted in <strong>non-decreasing order</strong>, and two integers <code>m</code> and <code>n</code>, representing the number of elements in <code>nums1</code> and <code>nums2</code> respectively.</p>
 
 <p><strong>Merge</strong> <code>nums1</code> and <code>nums2</code> into a single array sorted in <strong>non-decreasing order</strong>.</p>
