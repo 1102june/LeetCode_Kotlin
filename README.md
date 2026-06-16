@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/1102june/LeetCode_Kotlin/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/1102june/LeetCode_Kotlin/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/1102june/LeetCode_Kotlin/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/1102june/LeetCode_Kotlin/tree/master/0238-product-of-array-except-self) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/1102june/LeetCode_Kotlin/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/1102june/LeetCode_Kotlin/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/1102june/LeetCode_Kotlin/tree/master/0242-valid-anagram) |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/1102june/LeetCode_Kotlin/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/1102june/LeetCode_Kotlin/tree/master/0242-valid-anagram) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
@@ -115,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/1102june/LeetCode_Kotlin/tree/master/0383-ransom-note) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 ## Matrix
@@ -125,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2352-equal-row-and-column-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/2352-equal-row-and-column-pairs) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
