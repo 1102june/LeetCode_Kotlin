@@ -1,3 +1,12 @@
+## 접근
+1. 처음엔 k만 return 하면 되는줄알고 k개수만 줄였음
+2. example에서 평가하는방법 확인안함
+3. two pointer라는거 까지 이해했고  똑같이 while문에 left right움직인다 생각했음
+4. 근데 k값과 left, right 조건이 점점 꼬여서 해결못함
+5. 결론적으로 left는 썪은 사과를 찾으면 그자리에 멈춰서고 그걸 계속 right에 있는거로 덮어씀
+6. 그러면 right에 있는개 썪은사과면? >> 그래서 left에 있는거 덮어쓰고 한번 더 확인함 
+
+
 <h2><a href="https://leetcode.com/problems/remove-element/description/">27. Remove Element</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code> and an integer <code>val</code>, remove all occurrences of <code>val</code> in <code>nums</code> <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a>. The order of the elements may be changed. Then return <em>the number of elements in </em><code>nums</code><em> which are not equal to </em><code>val</code>.</p>
 
 <p>Consider the number of elements in <code>nums</code> which are not equal to <code>val</code> be <code>k</code>, to get accepted, you need to do the following things:</p>
