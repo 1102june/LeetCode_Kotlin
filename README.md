@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/1102june/LeetCode_Kotlin/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/1102june/LeetCode_Kotlin/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/1102june/LeetCode_Kotlin/tree/master/0443-string-compression) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/1102june/LeetHub_Kotlin/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/1102june/LeetCode_Kotlin/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/1102june/LeetCode_Kotlin/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/1102june/LeetCode_Kotlin/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0387-first-unique-character-in-a-string) |
 | [1207-unique-number-of-occurrences](https://github.com/1102june/LeetCode_Kotlin/tree/master/1207-unique-number-of-occurrences) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/1102june/LeetCode_Kotlin/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0387-first-unique-character-in-a-string) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 ## Matrix
 |  |
@@ -133,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
