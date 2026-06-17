@@ -7,11 +7,11 @@ class Solution {
             if(nums[left] == `val`){
                 nums[left] = nums[right]
                 right--
+            } 
+            else{
+                left++
             }
-            else {
-                left++ //정상사과면 leftpointer 이동
-            }  
-        }
-        return left
+        } 
+    return left
     }
 }
