@@ -7,6 +7,7 @@
 1. IntArray선언
    ```kotlin
 	var result  = IntArray(2) // [0,0]
+   var result2 = intArrayOf(2) // [2]
    ```
 2. Two Pointer 라는거 알면 알아서 잘골라라
    1. for문에선 i가 출발 pointer변수 외부에서 선언하고 조건달아서 증가
