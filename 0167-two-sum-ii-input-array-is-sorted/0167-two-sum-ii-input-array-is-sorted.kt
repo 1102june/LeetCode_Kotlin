@@ -1,30 +1,30 @@
 class Solution {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
-        // index 2개 리턴
-        // 원래 numbers가 오름차순이란점 
         val result = IntArray(2)
+
         var left = 0
         var right = numbers.size-1
 
         if(numbers.size == 2){
-            result[0] = numbers[0]
-            result[1] = numbers[1]
+            result[0] = 1
+            result[1] = 2
         }
 
-        while(left < right){
-            if(numbers[left] + numbers[right] < target){
+        while(left <= right){
+            val sum = numbers[left] + numbers[right]
+            if(sum < target){
                 left++
-            }
-            if(numbers[left] + numbers[right] > target){
+            } 
+            else if(sum > target){
                 right--
-            }
-            else if(numbers[left] + numbers[right] == target)  {
+            } 
+            else if(sum == target){
                 result[0] = left+1
                 result[1] = right+1
-                break
-            }
+                return result
+            } 
         }
-        
         return result 
+        
     }
 }
