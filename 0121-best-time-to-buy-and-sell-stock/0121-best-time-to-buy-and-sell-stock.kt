@@ -1,17 +1,16 @@
 class Solution {
     fun maxProfit(prices: IntArray): Int {
-        var min = 1000000
-
+        var min = 10000
         var max = 0
 
         for(i in prices){
-            if(i <  min){
-                min = i
+            if(i < min){
+                min = i // 최소값 갱신
             } 
-            else if(i - min > max){
-                max = i - min
-            } 
+            else if(i-min > max){
+                max = i - min 
         }
-        return max 
+    }
+    return max 
     }
 }
