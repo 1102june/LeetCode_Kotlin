@@ -1,3 +1,31 @@
+## 접근1: 내가 푼 방법
+1. 결국 Window 크기가 3이기때문에 string을 char array로 형변환시키고 for문돌음
+2. 결국 3개의 문자가 다르다는건 3번 비교하면 되기때문에
+3. 가장 runtime이 빠른 방법이기도함
+
+## 접근2: set 활용하기
+1. 그냥 문자 3개를 substring 활용해서 자르고
+2. set함수 사용하여 중복제거후 원래 길이인 3이랑 맞는지 확인후 result++
+3. window의 크기가 3이라면 문제없지만 그 이상인 경우 set함수 활용해서 풀어야함
+   ```kotlin
+	class Solution {
+    fun countGoodSubstrings(s: String): Int {
+        var result = 0
+
+        for(i in 0 until s.length-2){
+            val sub = s.substring(i, i+3)
+            val set = sub.toSet()
+            if(set.size == 3){
+                result++
+            } 
+        } 
+        return result
+    }
+}
+
+	```
+
+
 <h2><a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters">1987. Substrings of Size Three with Distinct Characters</a></h2><h3>Easy</h3><hr><p>A string is <strong>good</strong> if there are no repeated characters.</p>
 
 <p>Given a string <code>s</code>​​​​​, return <em>the number of <strong>good substrings</strong> of length <strong>three </strong>in </em><code>s</code>​​​​​​.</p>
