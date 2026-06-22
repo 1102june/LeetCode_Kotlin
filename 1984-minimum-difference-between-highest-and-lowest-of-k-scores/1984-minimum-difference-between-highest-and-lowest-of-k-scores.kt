@@ -1,22 +1,17 @@
 class Solution {
     fun minimumDifference(nums: IntArray, k: Int): Int {
-        if(nums.size == 1 || k==1){
+        if(nums.size == 1 || k == 1){
             return 0
+        }
+        var result = 100000
+        nums.sort()  // sorted()는 새로운 함수 반환
+        for(i in 0 until nums.size - k+1){
+            val max = nums[i+k-1]
+            val min = nums[i]
+            if(max - min < result){
+                result = max-min
+            }
         } 
-        // sort를 하고 시작할 생각을 할 수있는가
-        //k개씩 sliding window하면서 어떻게 뺀값중 최소값을 구할수있는가
-        var sort = nums.sorted()
-        var min = 100000
-
-        for(i in 0..nums.size-k){
-            val low = sort[i] //창문 시작
-            val high = sort[i+k-1] // 창문
-            val diff = high - low
-
-            if(diff < min){
-                min = diff
-            } 
-        } 
-        return min
+        return result
     }
 }
