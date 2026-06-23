@@ -1,3 +1,14 @@
+## 접근
+1. Stack에 담으면서 연속된 문자가 존재하면 pop해버림
+2. 그렇지 않다면 stack에 담기
+3. return 할땐 순서대로 해야해서 StringBuilder에 담아서 return
+
+## Kotlin Functions
+1. stack.lastOrNull() != i
+   ㄴ stack의 맨 윗부분이 i랑 같은지 -> stack.last() == i
+   ㄴ 같지않다면 Null return
+2. removeLast() 연산은 Stack 맨 윗부분을 무조건 Pop하는 연산
+
 <h2><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/">1128. Remove All Adjacent Duplicates In String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters. A <strong>duplicate removal</strong> consists of choosing two <strong>adjacent</strong> and <strong>equal</strong> letters and removing them.</p>
 
 <p>We repeatedly make <strong>duplicate removals</strong> on <code>s</code> until we no longer can.</p>
