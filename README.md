@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/1102june/LeetCode_Kotlin/tree/master/0349-intersection-of-two-arrays) |
 | [0605-can-place-flowers](https://github.com/1102june/LeetCode_Kotlin/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/1102june/LeetCode_Kotlin/tree/master/0643-maximum-average-subarray-i) |
+| [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/1102june/LeetCode_Kotlin/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/1102june/LeetCode_Kotlin/tree/master/1004-max-consecutive-ones-iii) |
 | [1207-unique-number-of-occurrences](https://github.com/1102june/LeetCode_Kotlin/tree/master/1207-unique-number-of-occurrences) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
 | [2352-equal-row-and-column-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/2352-equal-row-and-column-pairs) |
 ## Divide and Conquer
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/1102june/LeetCode_Kotlin/tree/master/0020-valid-parentheses) |
+| [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
