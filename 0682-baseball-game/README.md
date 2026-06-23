@@ -1,3 +1,12 @@
+## 접근
+1. C 만나면 그냥 pop해서 버리면 되니까 removeLast() 사용
+2. D 만나면 pop해서 2배해서 push last()로 값만 받아와서 x2후 push
+3. + 만나면 두개 pop해서 두개를 더한뒤 pop
+   + 여기서 pop을 실제로 하면 연산이 복잡해지니까 stack[stack.size-1] + stack[stack.size-2]
+   + 결론적으로 stack.last() 는 stack[stack.size-1] 은 같은값. 왜냐? stack은 배열deque니까
+
+
+
 <h2><a href="https://leetcode.com/problems/baseball-game">682. Baseball Game</a></h2><h3>Easy</h3><hr><p>You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.</p>
 
 <p>You are given a list of strings <code>operations</code>, where <code>operations[i]</code> is the <code>i<sup>th</sup></code> operation you must apply to the record and is one of the following:</p>
