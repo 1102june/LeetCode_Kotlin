@@ -5,8 +5,8 @@
 
 ## Kotlin Functions
 1. stack.lastOrNull() != i
-   ㄴ stack의 맨 윗부분이 i랑 같은지 -> stack.last() == i
-   ㄴ 같지않다면 Null return
+   stack의 맨 윗부분이 i랑 같은지 -> stack.last() == i
+   같지않다면 Null return
 2. removeLast() 연산은 Stack 맨 윗부분을 무조건 Pop하는 연산
 
 <h2><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/">1128. Remove All Adjacent Duplicates In String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters. A <strong>duplicate removal</strong> consists of choosing two <strong>adjacent</strong> and <strong>equal</strong> letters and removing them.</p>
