@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/1102june/LeetHub_Kotlin/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/1102june/LeetCode_Kotlin/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1544-make-the-string-great](https://github.com/1102june/LeetCode_Kotlin/tree/master/1544-make-the-string-great) |
 | [1657-determine-if-two-strings-are-close](https://github.com/1102june/LeetCode_Kotlin/tree/master/1657-determine-if-two-strings-are-close) |
 | [1768-merge-strings-alternately](https://github.com/1102june/LeetHub_Kotlin/tree/master/1768-merge-strings-alternately) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/1102june/LeetCode_Kotlin/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -170,4 +171,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1544-make-the-string-great](https://github.com/1102june/LeetCode_Kotlin/tree/master/1544-make-the-string-great) |
 <!---LeetCode Topics End-->
