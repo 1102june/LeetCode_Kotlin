@@ -3,26 +3,26 @@ class Solution {
         val stack1 = ArrayDeque<Char>()
         val stack2 = ArrayDeque<Char>()
 
-        for(i in s){
-            if(i == '#'){
-                    if(stack1.isNotEmpty()){
-                        stack1.removeLast()
-                    } 
+        for(i in 0 until s.length){
+                if(s[i] == '#'){
+                    if(stack1.isNotEmpty()){ 
+                    stack1.removeLast()
+                    }
+            }
+                else{
+                    stack1.add(s[i])
+                }
+        }
+        for(j in 0 until t.length){
+            if(t[j] == '#'){
+                if(stack2.isNotEmpty()){ 
+                stack2.removeLast()
+                }
             }
             else{
-                stack1.add(i) 
+                stack2.add(t[j])
             } 
         }
-        for(j in t){
-            if(j == '#'){
-                if(stack2.isNotEmpty()){
-                        stack2.removeLast()
-                    } 
-            }
-            else{
-                stack2.add(j) 
-            } 
-        }
-        return stack1.joinToString("") == stack2.joinToString("")
+        return stack1 == stack2
     }
 }
