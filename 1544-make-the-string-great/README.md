@@ -1,3 +1,9 @@
+## 접근
+1. 일단 Stack 비어있을땐 string을 집어넣을때 비교가 안되니까 stack이 비어있을땐 push
+2. 만약 들어있는게 stack.last()-32 == i 인 경우
+3. 대문자, 소문자 알파벳 차이가 32니까 비교
+4. 이 조건문을 세울수 있냐 없냐고 킥
+
 <h2><a href="https://leetcode.com/problems/make-the-string-great">1666. Make The String Great</a></h2><h3>Easy</h3><hr><p>Given a string <code>s</code> of lower and upper case English letters.</p>
 
 <p>A good string is a string which doesn&#39;t have <strong>two adjacent characters</strong> <code>s[i]</code> and <code>s[i + 1]</code> where:</p>
