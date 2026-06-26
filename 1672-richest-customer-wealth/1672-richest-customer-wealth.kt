@@ -1,17 +1,16 @@
 class Solution {
     fun maximumWealth(accounts: Array<IntArray>): Int {
-        var m = accounts.size
-        var n = accounts[0].size
-
-        var max = 0
-        for(i in 0 until m){
+        val n = accounts.size 
+        val m = accounts[0].size
+        var result = 0
+        for(i in 0 until n){
             var sum = 0
-            for(j in 0 until n){
-                sum += accounts[i][j]
-            }
-            if(sum > max)
-                max = sum 
-        }    
-    return max
+            for(j in 0 until m){
+                sum+= accounts[i][j]
+            } 
+            if(result < sum) 
+            result = sum
+        } 
+        return result
     }
 }
