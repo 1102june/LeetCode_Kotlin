@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/0387-first-unique-character-in-a-string) |
+| [0933-number-of-recent-calls](https://github.com/1102june/LeetCode_Kotlin/tree/master/0933-number-of-recent-calls) |
 ## Stack
 |  |
 | ------- |
@@ -178,4 +179,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/1102june/LeetCode_Kotlin/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/1102june/LeetCode_Kotlin/tree/master/1544-make-the-string-great) |
+## Design
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/1102june/LeetCode_Kotlin/tree/master/0933-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/1102june/LeetCode_Kotlin/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
