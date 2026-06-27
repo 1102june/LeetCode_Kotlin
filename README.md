@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/1102june/LeetCode_Kotlin/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/1102june/LeetCode_Kotlin/tree/master/0724-find-pivot-index) |
+| [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [1004-max-consecutive-ones-iii](https://github.com/1102june/LeetCode_Kotlin/tree/master/1004-max-consecutive-ones-iii) |
 | [1207-unique-number-of-occurrences](https://github.com/1102june/LeetCode_Kotlin/tree/master/1207-unique-number-of-occurrences) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/1102june/LeetCode_Kotlin/tree/master/1431-kids-with-the-greatest-number-of-candies) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [1672-richest-customer-wealth](https://github.com/1102june/LeetCode_Kotlin/tree/master/1672-richest-customer-wealth) |
 | [2352-equal-row-and-column-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/2352-equal-row-and-column-pairs) |
 ## Simulation
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
+| [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [2352-equal-row-and-column-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/2352-equal-row-and-column-pairs) |
 ## Divide and Conquer
 |  |
