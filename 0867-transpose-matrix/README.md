@@ -1,3 +1,12 @@
+## Kotlin Functions
+1. n행 m열인 정수형 배열 선언
+   ```kotlin
+	val result = Array(n) {IntArray(m)}
+   ```
+2. for문 돌면서 result에다가 거꾸로 append
+```kotlin
+	result[j][i] = result[i][j]
+   ```
 <h2><a href="https://leetcode.com/problems/transpose-matrix">898. Transpose Matrix</a></h2><h3>Easy</h3><hr><p>Given a 2D integer array <code>matrix</code>, return <em>the <strong>transpose</strong> of</em> <code>matrix</code>.</p>
 
 <p>The <strong>transpose</strong> of a matrix is the matrix flipped over its main diagonal, switching the matrix&#39;s row and column indices.</p>
