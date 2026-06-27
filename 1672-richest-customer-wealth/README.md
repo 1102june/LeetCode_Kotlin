@@ -1,3 +1,8 @@
+## 접근
+1. accounts의 크기, accounts의 0번째 배열의 크기 선언
+2. 이중 for문 돌며 sum에다가 집어넣고 result랑 비교해서 result보다 sum이 크면 교체
+3. customer가 바뀔때마다 sum값 초기화해야해서 sum의 위치를 for문 안에다가 선언
+
 <h2><a href="https://leetcode.com/problems/richest-customer-wealth">1791. Richest Customer Wealth</a></h2><h3>Easy</h3><hr><p>You are given an <code>m x n</code> integer grid <code>accounts</code> where <code>accounts[i][j]</code> is the amount of money the <code>i​​​​​<sup>​​​​​​th</sup>​​​​</code> customer has in the <code>j​​​​​<sup>​​​​​​th</sup></code>​​​​ bank. Return<em> the <strong>wealth</strong> that the richest customer has.</em></p>
 
 <p>A customer&#39;s <strong>wealth</strong> is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum <strong>wealth</strong>.</p>
