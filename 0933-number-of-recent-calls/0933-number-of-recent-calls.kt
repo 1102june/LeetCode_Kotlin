@@ -1,5 +1,6 @@
 class RecentCounter() {
-     val q = ArrayDeque<Int>()
+    val q = ArrayDeque<Int>()
+    
     fun ping(t: Int): Int {
         q.add(t)
         while(q.isNotEmpty() && q.first() < t-3000) 
