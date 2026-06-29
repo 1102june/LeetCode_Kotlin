@@ -1,3 +1,22 @@
+## 초기접근
+1. a*b의 배열과 r*c 배열로 배열 크기를 변경하는 문제
+2. 빈 배열을 val arr = Array(r){IntArray(c)}로 선언을 하긴함
+3. 근데 어떻게 다른 크기의 2차원 배열의 value를 옮겨 담을지 구상못함
+
+## Functions
+```kotlin
+	for(i in 0 until a){
+            for(j in 0 until b){
+                arr[count/c][count%c] = mat[i][j]
+                count++
+            } 
+        } 
+```
+[count/c][count%c] = mat[i][j]
+c는 열을 의미 
+그니까 count를 점점 늘리면서 0 , 1, 2 번 인덱스에 집어넣는거 
+count / c 
+count % c  << 이게 킥임
 <h2><a href="https://leetcode.com/problems/reshape-the-matrix">566. Reshape the Matrix</a></h2><h3>Easy</h3><hr><p>In MATLAB, there is a handy function called <code>reshape</code> which can reshape an <code>m x n</code> matrix into a new one with a different size <code>r x c</code> keeping its original data.</p>
 
 <p>You are given an <code>m x n</code> matrix <code>mat</code> and two integers <code>r</code> and <code>c</code> representing the number of rows and the number of columns of the wanted reshaped matrix.</p>
