@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/1102june/LeetCode_Kotlin/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/1102june/LeetCode_Kotlin/tree/master/0334-increasing-triplet-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/1102june/LeetCode_Kotlin/tree/master/0349-intersection-of-two-arrays) |
+| [0566-reshape-the-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0566-reshape-the-matrix) |
 | [0605-can-place-flowers](https://github.com/1102june/LeetCode_Kotlin/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/1102june/LeetCode_Kotlin/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
@@ -155,12 +156,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0566-reshape-the-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0566-reshape-the-matrix) |
 | [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [1672-richest-customer-wealth](https://github.com/1102june/LeetCode_Kotlin/tree/master/1672-richest-customer-wealth) |
 | [2352-equal-row-and-column-pairs](https://github.com/1102june/LeetCode_Kotlin/tree/master/2352-equal-row-and-column-pairs) |
 ## Simulation
 |  |
 | ------- |
+| [0566-reshape-the-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0566-reshape-the-matrix) |
 | [0682-baseball-game](https://github.com/1102june/LeetCode_Kotlin/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/1102june/LeetCode_Kotlin/tree/master/0844-backspace-string-compare) |
 | [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
