@@ -1,15 +1,14 @@
 class Solution {
     fun transpose(matrix: Array<IntArray>): Array<IntArray> {
-        // 2차원 배열 뒤집기
-        val m = matrix.size
-        val n = matrix[0].size
-        val result = Array(n) { IntArray(m) }
-        //n행 m열
-        for(j in 0 until n){
-            for(i in 0 until m){
-                result[j][i] = matrix[i][j]
-            }
-        }
-        return result  
+        val a = matrix.size
+        val b = matrix[0].size
+        val arr = Array(b) {IntArray(a)}
+
+        for(i in 0 until a){
+            for(j in 0 until b){
+                arr[j][i] = matrix[i][j]
+            } 
+        } 
+        return arr
     }
 }
