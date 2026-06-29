@@ -6,14 +6,14 @@ class Solution {
         var result = 0
 
         for(i in 0 until a){
-            var sum = 0
+            var sum = 0 
             for(j in 0 until b){
-                 sum+=accounts[i][j] 
+                sum += accounts[i][j]
             }
-            if(sum > result){
+            if(result < sum){
                 result = sum
-            }  
-        } 
-        return result
+            } 
+        }
+        return result   
     }
 }
