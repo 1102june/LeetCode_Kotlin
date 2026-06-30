@@ -3,8 +3,13 @@
 2. 이중 for문 돌면서 0을 찾고, 그안의 for문을 통해 행과 열을 0으로 완전히 변경
 3. 근데 이러면 0으로 수정을 한뒤 다시 0을 찾으면 모든 행 열을 또 0으로 수정하게됨
 4. 그래서 방법을 0이 들어있는 행, 열의 위치를 기억하도록 BooleanArray로 선언하고
-5. 먼저 for문으로 0의 위치를 찾은뒤 다시 0의 위치대로 0으로 전부 다 수정해버림 
+5. 먼저 for문으로 0의 위치를 찾은뒤 다시 0의 위치대로 0으로 전부 다 수정해버림
 
+## Kotlin Functions 
+1. 불대수 배열 선언 
+```kotlin
+val c = BooleanArray(i)  // [false, false, false ,,,,]
+```
 <h2><a href="https://leetcode.com/problems/set-matrix-zeroes">73. Set Matrix Zeroes</a></h2><h3>Medium</h3><hr><p>Given an <code>m x n</code> integer matrix <code>matrix</code>, if an element is <code>0</code>, set its entire row and column to <code>0</code>&#39;s.</p>
 
 <p>You must do it <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in place</a>.</p>
