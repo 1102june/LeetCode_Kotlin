@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/1102june/LeetCode_Kotlin/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/1102june/LeetCode_Kotlin/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/1102june/LeetCode_Kotlin/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/1102june/LeetCode_Kotlin/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/1102june/LeetCode_Kotlin/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/1102june/LeetCode_Kotlin/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/1102june/LeetCode_Kotlin/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/1102june/LeetCode_Kotlin/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/1102june/LeetCode_Kotlin/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/1102june/LeetCode_Kotlin/tree/master/0219-contains-duplicate-ii) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/1102june/LeetCode_Kotlin/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/1102june/LeetCode_Kotlin/tree/master/0073-set-matrix-zeroes) |
 | [0566-reshape-the-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0566-reshape-the-matrix) |
 | [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/1102june/LeetCode_Kotlin/tree/master/1572-matrix-diagonal-sum) |
