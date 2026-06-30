@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/1102june/LeetCode_Kotlin/tree/master/0048-rotate-image) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/1102june/LeetHub_Kotlin/tree/master/1071-greatest-common-divisor-of-strings) |
 ## Array
 |  |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/1102june/LeetCode_Kotlin/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/1102june/LeetCode_Kotlin/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/1102june/LeetCode_Kotlin/tree/master/0035-search-insert-position) |
+| [0048-rotate-image](https://github.com/1102june/LeetCode_Kotlin/tree/master/0048-rotate-image) |
 | [0088-merge-sorted-array](https://github.com/1102june/LeetCode_Kotlin/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/1102june/LeetCode_Kotlin/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/1102june/LeetCode_Kotlin/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/1102june/LeetCode_Kotlin/tree/master/0048-rotate-image) |
 | [0566-reshape-the-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0566-reshape-the-matrix) |
 | [0867-transpose-matrix](https://github.com/1102june/LeetCode_Kotlin/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/1102june/LeetCode_Kotlin/tree/master/1572-matrix-diagonal-sum) |
