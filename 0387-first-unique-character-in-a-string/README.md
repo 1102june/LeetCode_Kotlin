@@ -1,3 +1,8 @@
+## Kotlin Functions
+1. 여기서 킥은 장부 채워넣고 장부를 다시읽는거
+2. 장부를 어떻게 집어넣을지 << getOrDefualt
+3. 장부 읽기전에 val ch = s[i] 처럼 키값이 Char니까 헷갈리지 않도록하는것도 킥
+
 <h2><a href="https://leetcode.com/problems/first-unique-character-in-a-string">387. First Unique Character in a String</a></h2><h3>Easy</h3><hr><p>Given a string <code>s</code>, find the <strong>first</strong> non-repeating character in it and return its index. If it <strong>does not</strong> exist, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
