@@ -1,14 +1,16 @@
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        val result = mutableMapOf<Int, Int>()
+        val map = HashMap<Int,Int>()
 
-        for(i in nums.indices){
-            val need = target - nums[i]
-            if(result.containsKey(need)){
-                return intArrayOf(result[need]!!, i)
-            } 
-            result[nums[i]] = i 
-        } 
-        return intArrayOf()
+        for(i in 0 until nums.size){
+            val current = nums[i]
+            val compl = target - current
+
+            if(map.containsKey(compl)){
+                return intArrayOf(map[compl]!! , i)
+            }
+            map[current] = i 
+        }
+        return intArrayOf() 
     }
 }
