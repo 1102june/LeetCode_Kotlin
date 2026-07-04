@@ -7,10 +7,10 @@ class Solution {
             val compl = target - current
 
             if(map.containsKey(compl)){
-                return intArrayOf(map[compl]!! , i)
-            }
-            map[current] = i 
-        }
-        return intArrayOf() 
+                return intArrayOf(map[compl]!!, i)
+            }  
+            map[current] = i
+        } 
+        return intArrayOf()
     }
 }
