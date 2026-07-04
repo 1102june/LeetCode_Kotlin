@@ -1,16 +1,17 @@
 class Solution {
     fun majorityElement(nums: IntArray): Int {
-        var map = mutableMapOf<Int, Int>()
+        val map = HashMap<Int,Int>()
 
         for(i in nums){
-            val count = map.getOrDefault(i,0)+1
-            map[i] = count
+            map[i] = map.getOrDefault(i,0)+1
+        }
 
-            if(count*2 > nums.size){
-                return i
+
+        for(j in nums){
+            if(map[j]!! > (nums.size/2)){
+                return j
             }
         }
-        return -1 
-        
+        return -1
     }
 }
