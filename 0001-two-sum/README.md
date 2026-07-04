@@ -1,14 +1,8 @@
-## 초기접근
-1. two pointer활용해서 맨앞 인덱스와 맨끝 인덱스를 left, right로 선언하고 점점 줄이면서 더하려했음
-2. 그러나 너무 광범위한 배열길이로 runtime error남
-3. 그래서 target값과 해당 인덱스에 들어가있는값과의 차이를 기억해서
-4. map에다가 집어넣음 근데 여기서 킥이 value에다가 배열값 집어넣는게 아닌 key에다가 집어넣음
-5. O(n)의 시간복잡도로 해결가능
-
 ## Kotlin Functions
-1. map.containKeys(needed)
-2. !! 닥치고 꺼내와라 , null일어날일 없다
-3. intArrayOf(a,b) /// 즉시반환 
+1. 문제에서 주어주는 nums를 바로 map변환하는것이 아니라 빈 map을 채워나가자
+2. 어떻게? 현재값 current, target에서current 뺀 값의 위치를 찾는거니까
+3. 만약 찾으면 과거 저장된 위치의 value return 그리고 현위치까지
+4. 만약 못찾았으면 map[current] = i 해당 키 value값에 인덱스 위치 집어넣음
 
 <h2><a href="https://leetcode.com/problems/two-sum">1. Two Sum</a></h2><h3>Easy</h3><hr><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
