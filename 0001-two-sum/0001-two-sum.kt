@@ -1,16 +1,17 @@
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        val map = HashMap<Int,Int>()
+        //map 선언
+        val map = HashMap<Int, Int>()
 
         for(i in 0 until nums.size){
-            val current = nums[i]
-            val compl = target - current
+            val curr = nums[i]
+            val find = target - curr
 
-            if(map.containsKey(compl)){
-                return intArrayOf(map[compl]!!, i)
-            }  
-            map[current] = i
-        } 
-        return intArrayOf()
+            if(map.containsKey(find)){
+                return intArrayOf(map[find]!!, i)
+            } 
+            map[curr] = i
+        }
+        return intArrayOf() 
     }
 }
