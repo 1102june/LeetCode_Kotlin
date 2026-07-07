@@ -1,6 +1,6 @@
 class Solution {
     fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
-        val result = ArrayList<Int>()
+        val result = mutableListOf<Int>() // arrayListOf<Int>()
         
         val nums3 = nums1.toSet()
         val nums4 = nums2.toSet()
