@@ -1,21 +1,25 @@
 class Solution {
     fun maxArea(height: IntArray): Int {
-        var left = 0// 왼쪽 포인터
-        var right = height.size-1// 오른쪽 포인터
-        var max = 0 //최대값
+        if(height.size == 2){
+            return minOf(height[0],height[1])
+        }
+        var max = 0
+        var left = 0
+        var right = height.size-1
 
-        while (left < right){
-            if(max < ((right - left)* min(height[left], height[right]))) 
-            //직사각형 넓이 구하기
-                max = ((right - left)* min(height[left], height[right]))
-                if(height[left] < height[right]){
+        while(left < right){
+            val sum = (right-left) * (minOf(height[left], height[right]))
+            if(sum > max){
+                max = sum
+            }
+            // left, right pointer를 어떻게 움직일것인가
+            if(height[left] < height[right]){
                 left++
-                }
-                else{
+            }
+            else{
                 right--
-                }
-                }
+            }
+        } 
         return max
-        
     }
 }
