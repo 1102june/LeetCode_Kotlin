@@ -6,7 +6,7 @@
 5. HashSet으로 풀진못함. 난 여전히 선언을 mutableListOf<>() 로 선언하는게 편함..
 
 ## HashSet
-1. 그렇다면 우리가 Perplexity 측면에서 왜 HashSet으로 선언하는게 이득일까?
+1. 그렇다면 우리가 Time Complexity 측면에서 왜 HashSet으로 선언하는게 이득일까?
 2. 일단 우리가 right pointer로 무조건 전진하는 구조라 result안에 들어있는지 확인하는 s[right] in result << 이 검사를 하게된다.
 3. HashSet으로 선언할 경우 in 연산이 O(1) 이 걸리지만
 4. mutableListOf 으로선언시 in 연산이 O(N) 걸린다.
