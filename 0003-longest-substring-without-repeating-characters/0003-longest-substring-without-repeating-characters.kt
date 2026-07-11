@@ -1,22 +1,21 @@
 class Solution {
     fun lengthOfLongestSubstring(s: String): Int {
-        val set = HashSet<Char>()
+        val result = mutableListOf<Char>()
 
-        var left = 0
+        var left = 0  // left는 규칙위반시(새로 들어오는 애랑 중독되면) result에서 제거함
         var max = 0
+
         for(right in 0 until s.length){
-            val curr = s[right]
-
-            while(curr in set){
-                set.remove(s[left])
-                left++
-            }
-            set.add(curr)
-
-            if(right-left+1 > max){
-                max = right - left+1
-            }  
-        }
-        return max 
+            //right는 그냥 전진
+            while(s[right] in result){
+                result.remove(s[left])
+                left++    
+                }
+            result.add(s[right])
+            if(result.size > max){
+                max = result.size
+            }            
+        } 
+        return max
     }
 }
