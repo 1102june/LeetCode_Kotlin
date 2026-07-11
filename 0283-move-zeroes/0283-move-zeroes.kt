@@ -1,6 +1,6 @@
 class Solution {
     fun moveZeroes(nums: IntArray): Unit {
-        var nonzero= 0 
+        var nonzero = 0
 
         for(i in 0 until nums.size){
             if(nums[i] != 0){
@@ -9,7 +9,7 @@ class Solution {
                 nums[nonzero] = temp
 
                 nonzero++
-            } 
+            }  
         } 
         
     }
