@@ -1,24 +1,21 @@
 class Solution {
     fun lengthOfLongestSubstring(s: String): Int {
-        val result = mutableListOf<Char>()
-
         var left = 0
-        var right = 0
         var max = 0
 
-        while(right < s.length) {
-            if(s[right] in result){
+        val result = mutableListOf<Char>()
+
+        for(i in 0 until s.length){
+            val curr = s[i]
+            while(curr in result){
                 result.remove(s[left])
                 left++
             }
-            else{
-                result.add(s[right])
-                right++
-            }
-            if(max < result.size){
+            result.add(curr)
+            if(result.size > max){
                 max = result.size
             }   
         }
-        return max
+        return max 
     }
 }
