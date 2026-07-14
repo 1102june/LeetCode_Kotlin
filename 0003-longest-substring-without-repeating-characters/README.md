@@ -3,6 +3,7 @@
 2. right pointer는 그냥 직진, left pointer는 규칙 위반시에만 움직임
 3. right pointer는 그냥 출발하면서 단어 하나씩 삼키면서 직진 result에 char추가
 4. 만약 rightpointer가 가르키는 값이 result에있으면 result에서 빼고 left ++
+5. 근데 여기서 나는 그냥 if문 써서 삭제하려했으니 result에서 해당 문자의 정확한 위치를 몰라서 while문돌아야한다는것을 생각못함
 
 
 ## HashSet
