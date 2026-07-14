@@ -1,9 +1,9 @@
 ## 접근 
 1. 어떻게 접근할건지 부터 생각해야함. 근데 난 이걸 포인터 두개 활용해서 sliding 할 생각까지만 하고 어떻게 해야할지 제대로 생각하진 못함.
 2. right pointer는 그냥 직진, left pointer는 규칙 위반시에만 움직임
-3. 규칙 위반하는 기준이 무엇일까? 문제 있는 그대로 result라는 우리의 공간에 rightpointer가 달리면서 duplicate가 발생하는 순간이 규칙위반
-4. duplicate하면 바로 떠올라야할것이 set. 아 그럼 빈바구니를 HashSet으로 선언하면 되겠구나
-5. HashSet으로 풀진못함. 난 여전히 선언을 mutableListOf<>() 로 선언하는게 편함..
+3. right pointer는 그냥 출발하면서 단어 하나씩 삼키면서 직진 result에 char추가
+4. 만약 rightpointer가 가르키는 값이 result에있으면 result에서 빼고 left ++
+
 
 ## HashSet
 1. 그렇다면 우리가 Time Complexity 측면에서 왜 HashSet으로 선언하는게 이득일까?
