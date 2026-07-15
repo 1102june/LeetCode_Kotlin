@@ -1,23 +1,22 @@
 class Solution {
     fun longestConsecutive(nums: IntArray): Int {
-        if(nums.size == 1){
+        if(nums.size==1){
             return 1
-        }
-        val set = nums.toSet() // toSet() -> O(n) 
-        var max = 0
+        } 
+        var result = 0
+        val a = nums.toSet() // O(n)
 
-        for(i in set){
-            if(!set.contains(i-1)){ // 만약 이게 시작점이면 
+        for(i in a){
+            if(!a.contains(i-1)){
                 var curr = i
-                var currMax = 1
-            
-            while(set.contains(curr+1)){
+                var count = 1
+            while(a.contains(curr+1)){
                 curr++
-                currMax++
+                count++
+                }
+                result = maxOf(result, count) 
             }
-            max = maxOf(max, currMax)
-            }
-        }
-        return max  
+        } 
+        return result
     }
 }
