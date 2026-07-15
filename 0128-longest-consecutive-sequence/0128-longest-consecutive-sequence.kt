@@ -10,10 +10,10 @@ class Solution {
         var maxStreak = 0 
 
         for(i in set){
-            if(!set.contains(i-1)){
+            if(!set.contains(i-1)){  //맨앞칸이 아니라면. 결국 시작점 찾기
                 var currNum = i
-                var currStreak = 1
-                while(set.contains(currNum +1)){
+                var currStreak = 1  //기차 길이가 1로시작함. 
+                while(set.contains(currNum +1)){ 
                     currNum++
                     currStreak++
                 }
